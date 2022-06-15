@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('/public/CascadiaCode.ttf') format('ttf');
+}
+
+@layer base {
+  ::selection {
+    @apply bg-slate-200 text-dark;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+}
