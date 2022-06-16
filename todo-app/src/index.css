@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  input {
+    @apply bg-transparent outline-none w-full;
+  }
+}
+
+@layer components {
+  .text--white {
+    @apply text-stone-100;
+  }
+  .text--black {
+    @apply text-stone-900;
+  }
+
+  .bgmode {
+    @apply bg-gray-100 dark:bg-stone-900;
+  }
+
+  .bordermode {
+    @apply border-stone-300 focus:border-stone-400 dark:border-stone-600 dark:focus:border-stone-500;
+  }
+
+  .shadowmode {
+    @apply shadow-md shadow-stone-200 dark:shadow-stone-800;
+  }
+
+  .textmode {
+    @apply text-stone-700 dark:text-stone-500;
+  }
+  .textmode-gray {
+    @apply text-stone-400 dark:text-stone-600;
+  }
+
+  .todo--completed {
+    @apply line-through;
+  }
+
+  .btn--second {
+    @apply capitalize hover:text-blue-700 hover:underline text-stone-600;
+  }
+  .btn--second.active {
+    @apply text-blue-700 underline;
+  }
+
+  .p {
+    @apply text-stone-600;
+  }
+
+  .card {
+    @apply rounded-lg dark:bg-stone-800 bg-stone-100;
+  }
+
+  .radio__container {
+    @apply cursor-pointer;
+  }
+  .radio__container:hover .radio {
+    @apply border-stone-600;
+  }
+  .radio__container .radio__input:checked ~ .radio {
+    @apply bg-[center_6px] bg-no-repeat bg-[length:14px_14px] bg-check;
+  }
+  .radio {
+    @apply border h-6 inline-block rounded-full w-6 border-stone-700;
+  }
+  .radio__input {
+    @apply hidden;
+  }
+}
