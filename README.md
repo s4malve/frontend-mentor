@@ -28,13 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Screenshot](src/.readme-assets/mobile-screenshot.png)
-![Desktop Screenshot](./src/.readme-assets/desktop-screenshot.png)
+![Mobile Screenshot](/expenses-chart-component/src/.readme-assets/mobile-screenshot.png)
+![Desktop Screenshot](expenses-chart-component/src/.readme-assets/desktop-screenshot.png)
 
 ### Links
 
-- [Github Repo](https://github.com/s4malve/frontend-mentor-expenses-chart-component)
-- [Demo Site](https://s4malve.github.io/frontend-mentor-expenses-chart-component)
+- [Github Repo](https://github.com/s4malve/frontend-mentor/tree/expenses-chart-component)
 
 ## My process
 
@@ -46,7 +45,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Tailwindcss](https://tailwindcss.com/) - For styles
+- [Tailwindcss](https://tailwindcss.com/) - For styless
 
 ## Author
 
