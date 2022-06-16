@@ -33,4 +33,14 @@ export default [
     cover:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zfgce1seaqfllpuktpai.jpg',
   },
+  {
+    id: 'todo',
+    title: 'Todo',
+    description:
+      'The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.',
+    languages: [contents.html, contents.css, contents.js],
+    difficulty: difficulties.intermediate,
+    cover:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/ty4ppudcq94rtgj4rv6p.jpg',
+  },
 ]
