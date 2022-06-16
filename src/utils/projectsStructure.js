@@ -4,6 +4,11 @@ const difficulties = {
     value: 2,
     color: '#aad742',
   },
+  intermediate: {
+    name: 'Intermediate',
+    value: 3,
+    color: '#f1b604',
+  },
 }
 
 const contents = {
