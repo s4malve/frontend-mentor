@@ -43,4 +43,14 @@ export default [
     cover:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/ty4ppudcq94rtgj4rv6p.jpg',
   },
+  {
+    id: 'social-media-dashboard',
+    title: 'Social media dashboard',
+    description:
+      'This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.',
+    languages: [contents.html, contents.css, contents.js],
+    difficulty: difficulties.junior,
+    cover:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/litdnhptrj3uurnnzj0m.jpg',
+  },
 ]
