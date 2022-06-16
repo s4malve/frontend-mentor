@@ -1,4 +1,4 @@
-import ArrowUp from '../../components/Icon/ArrowUp'
+import ArrowUp from '../Icon/ArrowUp'
 
 export default ({
   rating: { count, positive, size },
