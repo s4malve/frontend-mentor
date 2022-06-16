@@ -23,4 +23,14 @@ export default [
     cover:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/nr37our6z7faztmhwj9r.jpg',
   },
+  {
+    id: 'ip-address-tracker',
+    title: 'Ip address tracker',
+    description:
+      "In this challenge, you'll be using two separate APIs together to create an IP Address Tracking app.",
+    languages: [contents.html, contents.css, contents.js, contents.api],
+    difficulty: difficulties.intermediate,
+    cover:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zfgce1seaqfllpuktpai.jpg',
+  },
 ]
