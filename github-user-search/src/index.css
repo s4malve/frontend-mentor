@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill {
+  transition-property: background-color, color;
+  transition: 5000s ease-in-out 0s;
+}
+
+@layer components {
+  .avatar {
+    @apply rounded-full;
+  }
+
+  .link {
+    @apply text-blue-500 hover:underline;
+  }
+}
