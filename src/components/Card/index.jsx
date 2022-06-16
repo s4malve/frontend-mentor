@@ -1,6 +1,6 @@
 export default ({ cover, id, title, description, languages, difficulty }) => {
   return (
-    <article className="border flex-col flex max-w-sm p-4 rounded-md border-slate-800 gap-y-3">
+    <article className="border flex-col flex p-4 rounded-md border-slate-800 gap-y-3">
       <a
         href={`/projects/${id}/index.html`}
         className="overflow-hidden rounded-md"
