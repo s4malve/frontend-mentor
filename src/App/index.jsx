@@ -10,9 +10,11 @@ export default () => {
         <Header />
         <main className="pb-8 pt-28" id="projects">
           <h2 className="font-bold mb-8 text-3xl text-center">Projects</h2>
-          {projects.map((project) => (
-            <Card key={project.id} {...project} />
-          ))}
+          <section className="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-3">
+            {projects.map((project) => (
+              <Card key={project.id} {...project} />
+            ))}
+          </section>
         </main>
       </div>
     </div>
