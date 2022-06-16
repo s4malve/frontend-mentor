@@ -13,4 +13,14 @@ export default [
     cover:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/xhxtaym7uzypzb37rpcc.jpg',
   },
+  {
+    id: 'github-user-search',
+    title: 'Github user search',
+    description:
+      "In this project, you'll use the GitHub users API to pull profile data and display it. It's a great challenge if you're looking to practice working with a 3rd-party API.",
+    languages: [contents.html, contents.css, contents.js, contents.api],
+    difficulty: difficulties.junior,
+    cover:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/nr37our6z7faztmhwj9r.jpg',
+  },
 ]
