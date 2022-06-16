@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.facebook::before {
+  background-color: #3b5998;
+}
+
+.twitter::before {
+  background-color: #03a9f4;
+}
+
+.instagram::before {
+  background-image: linear-gradient(to right, #f4a743, #c31e71, #7723be);
+}
+
+.youtube::before {
+  background-color: #ff0000;
+}
+
+@layer components {
+  .container {
+    @apply w-[96.3%] mx-auto max-w-5xl;
+  }
+
+  .rating {
+    @apply capitalize flex font-semibold text-sm;
+  }
+
+  .card {
+    @apply rounded-md text-slate-400 bg-[#f0f2fa] dark:bg-[#252a41] h-full p-4;
+  }
+
+  .card-title {
+    @apply font-bold mb-2 text-slate-900 dark:text-slate-100;
+  }
+}
