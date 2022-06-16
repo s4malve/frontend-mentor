@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  h1,
+  h2 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-base;
+  }
+
+  input {
+    @apply bg-transparent focus-within:outline-none;
+  }
+}
+
+@layer components {
+  .card {
+    @apply absolute top-full mt-5 w-full py-4 flex flex-col items-center text-center text-slate-900 bg-stone-100 rounded-xl gap-y-3 lg:flex-row lg:justify-around lg:py-7 shadow-lg md:mt-8 z-40;
+  }
+
+  #map {
+    height: calc(100vh - 252px);
+  }
+  #map > div {
+    height: 100%;
+    z-index: 1;
+  }
+
+  .btn {
+    @apply py-3 px-4;
+  }
+  .btn-primary {
+    @apply bg-slate-900 text-slate-100 h-full rounded-tr-xl rounded-br-xl;
+  }
+
+  .search {
+    @apply w-full max-w-[500px] rounded-xl bg-stone-100 text-slate-900 flex items-stretch justify-between;
+  }
+
+  .wrapper {
+    @apply w-11/12 max-w-4xl mx-auto;
+  }
+}
