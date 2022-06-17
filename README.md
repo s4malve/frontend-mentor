@@ -2,6 +2,9 @@
 
 A list of frontend mentor project i made
 
+## Live Site
+Find the live site by clicking [here](https://s4malve-frontend-mentor.netlify.app/)
+
 ## Screenshots
 
 ![Desktop Screenshot](/src/.readme-assets/desktop-screenshot.png)
