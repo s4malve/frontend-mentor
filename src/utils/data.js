@@ -53,4 +53,14 @@ export default [
     cover:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/litdnhptrj3uurnnzj0m.jpg',
   },
+  {
+    id: 'interactive-pricing-component',
+    title: 'Interactive pricing component',
+    description:
+      "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+    languages: [contents.html, contents.css, contents.js],
+    difficulty: difficulties.junior,
+    cover:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/fp0qtspesm6i0miyqncg.jpg',
+  },
 ]
