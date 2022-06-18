@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@layer base {
+  input[type='range']::-webkit-slider-runnable-track {
+    @apply h-2 rounded-full;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    @apply bg-teal-500 h-5 -mt-[10px] p-4 rounded-full w-5;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-8 py-3 rounded-full;
+  }
+
+  .btn-primary {
+    @apply bg-blue-900 hover:bg-blue-900/90 active:bg-blue-900/80 font-semibold text-stone-100;
+  }
+
+  .btn-switch {
+    @apply h-6 inline-block p-1 rounded-full w-10 bg-stone-300 transition-[background-color];
+  }
+  .btn-switch.active {
+    @apply bg-blue-800;
+  }
+  .btn-switch.active div {
+    @apply translate-x-full;
+  }
+  .btn-switch div {
+    @apply duration-200 h-full rounded-full transition-transform translate-x-0 w-1/2 bg-stone-50;
+  }
+}
